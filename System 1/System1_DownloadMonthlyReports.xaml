@@ -248,7 +248,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:GetLastDownloadedFile FileResource="{x:Null}" DisplayName="Wait for report file to Download" DownloadFolder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[DownloadFile]" sap:VirtualizedContainerService.HintSize="483.2,528" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1" IgnoreFiles="tmp,dwn" Timeout="20">
+                          <ui:GetLastDownloadedFile FileResource="{x:Null}" DisplayName="Wait for report file to Download" DownloadFolder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[DownloadFile]" sap:VirtualizedContainerService.HintSize="483.2,528" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1" IgnoreFiles="tmp,dwn" Timeout="30">
                             <ui:GetLastDownloadedFile.Body>
                               <ActivityAction>
                                 <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,269.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
